@@ -1,0 +1,387 @@
+body
+{
+    background-color: #eac472;
+    margin-left: auto;
+    margin-right: auto;
+   width: 100vw;
+   height: 100vh;
+    background-size: cover;
+}
+.menu
+{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+ height: 80px;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+    text-decoration: none;
+
+}
+#logo
+{
+  width: 180px;
+height: 30px;
+margin-left: -130px;
+}
+.menu a:hover
+{
+    color: #eac472;
+}
+.menu a
+{
+    margin: 0 1rem;
+    text-decoration: none;
+    padding: 1rem 0.2rem ;
+   color: black;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.dropdown
+{
+    position: relative;
+}
+.dropdown ul
+{
+    width: 220px;
+    text-align: center;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    list-style-type: none;
+    box-shadow: 0px 0px 23px 0px #656058;
+    margin-top: 10px;
+    border-radius: 7px;
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.dropdown ul li 
+{
+    padding: 0.5rem;
+}
+.dropdown ul li a 
+{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+}
+.dropdown ul li:hover
+{
+   color:#eac472 ;
+    border-radius: 7px;
+}
+.dropdown a:focus + ul, .dropdown a:hover + ul, .dropdown ul:hover
+{
+    display: block;
+}
+.container
+{
+   display: flex;
+   justify-content: center;
+}
+#content
+{
+    
+    border-radius: 7px;
+    margin-top: 120px;
+    margin-bottom: -30px;
+    background-color: white;
+    box-shadow: 0px 0px 23px 0px #656058;
+    margin-left: 120px;
+    width: 1250px;
+    padding: 70px;
+
+  
+  
+ 
+}
+h1
+{
+    text-align: center;
+    color: #e3a930;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 3rem;
+ letter-spacing: 5px;
+}
+h2
+{
+
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 2rem;
+ letter-spacing: 5px;   
+ text-align: left;
+}
+h3
+{
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 1,5rem;
+ letter-spacing: 2px;   
+ text-align: left;
+
+}
+#aside
+{
+    margin:120px 1600px 0px 0px;
+    width:230px;
+    padding:10px;
+    border-radius: 7px;
+    background-color:#fffefa;
+    box-shadow: 0px 0px 23px 0px #656058;
+
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.footerdiv
+{
+    display: flex;
+    justify-content: center;
+}
+footer
+{
+   
+    display: grid;
+background-color: rgb(0, 0, 0);
+margin: 80px 0px 40px 120px;
+height: 300px;
+width: 1395px;    
+border-radius: 7px;
+box-shadow: 0px 0px 23px 0px #656058;
+
+
+
+}
+.links
+{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 7fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(70px, 100px);
+    padding: 20px;
+    
+    
+    
+}
+.links a
+{
+    opacity: 0.7;
+    color: #eac472;
+    text-decoration: none;
+    transition: 1s;
+}
+.links a:hover
+{
+    opacity: 1;
+}
+#Lyreco
+{
+background-color: rgb(247, 247, 247);
+border-radius: 7px;
+
+
+}
+#Comarch_HRM
+{
+background-color: rgb(254, 254, 255);
+border-radius: 7px;
+
+}
+#Sklep_Marketingowy
+{
+    background-color: white;
+    border-radius: 7px;
+
+}
+#Gift
+{
+background-color: white;
+border-radius: 7px;
+}
+#InpostWebtrucker
+{
+ background-color: white;
+ border-radius: 7px;
+}
+#Payback
+{
+background-color: white;
+border-radius: 7px;
+
+
+}
+#Tribeware
+{
+   
+   background-color: white;
+   border-radius: 7px;
+   
+  
+}
+#Contact
+{
+    background-color: rgb(0, 0, 0);
+    grid-row: 3/1;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 5px;
+text-align: center;
+color: white;
+word-spacing: 2px;
+letter-spacing: 1,5px;
+font-size: 15px;
+
+}
+#contact a
+{
+    text-decoration: none;
+    color: white;
+   
+}
+#Facebook
+{
+    background-color: white;
+    border-radius: 7px;
+    
+  
+}
+#Linkedin
+{
+    background-color:#fdfdfd;
+    border-radius: 7px;
+}
+#Youtube
+{
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+#paybacklogo
+{
+    width: 220px;
+    height: 105px;
+}
+#Comarch_logo
+{
+  margin-top: 35px;  
+  margin-left: 5px;
+}
+#tribewarelogo
+{
+    width: 200px;
+    border-radius: 7px;
+    height: 100px;
+  
+
+}
+#giftlogo
+{
+    margin-left: 20px;
+    width: 160px;
+    height: 100px;
+   
+
+}
+#marketinglogo
+{
+    margin-left: 35px;
+    width: 160px;
+    height: 100px;
+  
+}
+#facebooklogo
+{
+    width: 230px;
+    height: 100px;
+}
+#linekdinlogo
+{
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+#inpost_logo
+{
+ width: 150px;
+ margin-left: 20px;
+}
+#youtube_logo
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 55px;
+}
+#alcaponelogofooter
+{
+width: 200px;
+padding: 5px;
+}
+.asidelinks a
+{
+    text-decoration: none;
+    color: black;
+}
+.asidelinks a:hover
+{
+   color:  #eac472;
+}
+#aside li
+{
+   list-style: none;
+   line-height: 20px;
+}
+
+#buttonext
+{
+    width: 60px;
+    margin-right: 20px;
+    opacity: 0.5;
+    
+}
+#buttonext:hover
+{
+ opacity: 1; 
+ transition: 2s;
+}
+#buttonbefore
+{
+    
+    width: 60px;
+    opacity: 0.5;
+margin-left: 15px;
+   transform: rotate(180deg);
+
+}
+#buttonbefore:hover
+{
+ opacity: 1; 
+ transition: 2s;
+}
+.buttons_on_website
+{
+    display: flex;
+    padding: 5px;
+    
+}
+#buttonext_index
+{
+    width: 60px;
+    margin-left: 40px;
+    opacity: 0.5;
+
+}
+#buttonext_index:hover
+{
+    opacity: 1; 
+    transition: 2s;
+
+}
